@@ -6,7 +6,7 @@ import Movie from "./components/Movie";
 import NotFound from "./components/NotFound";
 import { GlobalStyles } from "./GlobalStyles";
 
-const App = () => (
+const App: React.FC = () => (
   <Router>
     <Header />
     <Routes>
